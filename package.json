@@ -30,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/brad-smialek-401-advanced-javascript/lab-07-api-server/issues"
   },
-  "homepage": "https://github.com/brad-smialek-401-advanced-javascript/lab-07-api-server#readme"
+  "homepage": "https://github.com/brad-smialek-401-advanced-javascript/lab-07-api-server#readme",
+  "devDependencies": {
+    "express-swagger-generator": "^1.1.15"
+  }
 }
