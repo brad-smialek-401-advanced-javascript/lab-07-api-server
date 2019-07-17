@@ -6,7 +6,7 @@
 ### Author: Student/Group Name
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
+* [submission PR](https://github.com/brad-smialek-401-advanced-javascript/lab-07-api-server/pull/1)
 * [travis]([![Build Status](https://www.travis-ci.com/brad-smialek-401-advanced-javascript/lab-07-api-server.svg?branch=master)](https://www.travis-ci.com/brad-smialek-401-advanced-javascript/lab-07-api-server))
 * [back-end](http://xyz.com) (when applicable)
 * [front-end](http://xyz.com) (when applicable)
@@ -44,4 +44,4 @@ Usage Notes or examples
 * What assertions need to be / should be made?
 
 #### UML
-Link to an image of the UML for your application and response to events
+![UML](./assets/uml.jpg)
