@@ -3,45 +3,54 @@
 
 ## api-server
 
-### Author: Student/Group Name
+### Author: Brad Smialek
 
 ### Links and Resources
 * [submission PR](https://github.com/brad-smialek-401-advanced-javascript/lab-07-api-server/pull/1)
 * [travis]([![Build Status](https://www.travis-ci.com/brad-smialek-401-advanced-javascript/lab-07-api-server.svg?branch=master)](https://www.travis-ci.com/brad-smialek-401-advanced-javascript/lab-07-api-server))
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
-
-#### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
 
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### `index.js`
+#### `server.js`
 
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
 
 ### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* `PORT` - 3000
+
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* `nodemon`
+
+* `http://localhost:3000/?path`
+
+* `echo '{"id": number, "description":"string","display_name": "string", "string":"text"}' | http post :3000/categories`
+  * creates a record with schema variable
   
+#### REST Methods
+* `get '/categories'`
+  * Returns a JSON object with count and results.
+* `get '/categories/:id'`
+  * Returns a record.
+* `post '/categories'`
+  * creates a new record.
+* `delete '/categories/:id'`
+  * deletes a record by id.
+* `put '/categories/:id'`
+  * updates a record by id.
+* `use '*'`
+  * Returns a 404 error
+* `use 'error'`
+  * Returns a 500 error
+
+#### Documentation
+* [swagger](./docs/config)
+* [jsdoc](http://localhost:3000/docs)
+
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* npm test server.test.js
+* bad routes or methods expect error
+
 
 #### UML
 ![UML](./assets/uml.jpg)
