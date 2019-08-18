@@ -6,6 +6,7 @@
 ### Author: Brad Smialek
 
 ### Links and Resources
+* [Link to lab-7-middleware repo](https://github.com/brad-smialek-401-advanced-javascript/lab-07-middleware)
 * [submission PR](https://github.com/brad-smialek-401-advanced-javascript/lab-07-api-server/pull/1)
 * [travis]([![Build Status](https://www.travis-ci.com/brad-smialek-401-advanced-javascript/lab-07-api-server.svg?branch=master)](https://www.travis-ci.com/brad-smialek-401-advanced-javascript/lab-07-api-server))
 
